@@ -6,7 +6,8 @@ import job_site.internshala as internshala
 from alive_progress import alive_bar
 
 # pre-requisites
-path = csv_part.path
+# deletes the temporary csv file if its present
+path = csv_part.path 
 if(path.is_file()):
     path.unlink()
 
