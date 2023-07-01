@@ -5,6 +5,7 @@ A scraper made with python to extract internship offers from internshala
 1. Install python
 2. Install pipenv
 `pip install pipenv`
+3. Use `pipenv install` if there no active environemnts already made else, execute `pipenv sync`. 
 3. Initialize path name constants found here, helphers/constants.py
 `C:\\path\to\where\you\want\the\files\to\be`
 4. Execute started.cmd by double clicking it if you are on windows, or `python main.py`
